@@ -1,0 +1,80 @@
+body {
+  font-family: "Klee One", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.frame {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(205, 117, 2);
+  margin: auto;
+  margin-top: 100px;
+}
+
+.blackboard {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(1, 51, 2);
+  margin: auto;
+  margin-top: 100px;
+  scale: 0.95;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.yellow {
+  width: 150px;
+  height: 120px;
+  background: rgb(191, 191, 191);
+  background: linear-gradient(0deg, rgba(191, 191, 191, 1) 0%, rgba(253, 254, 205, 1) 19%);
+  transform: rotate(-5deg);
+  text-align: center;
+}
+
+.yellow:hover {
+  rotate: 5deg;
+  scale: 1.5;
+  transition: rotate 0.5s, scale 0.5s;
+  z-index: 1;
+}
+
+.green {
+  width: 150px;
+  height: 120px;
+  background: rgb(167, 255, 145);
+  background: linear-gradient(180deg, rgba(167, 255, 145, 1) 0%, rgba(215, 251, 201, 1) 55%, rgba(191, 196, 189, 1) 100%);
+  transform: rotate(8deg);
+  text-align: center;
+}
+
+.green:hover {
+  rotate: -8deg;
+  scale: 1.5;
+  transition: rotate 0.5s, scale 0.5s;
+  z-index: 1;
+}
+
+.violet {
+  width: 150px;
+  height: 120px;
+  background: rgb(216, 145, 255);
+  background: linear-gradient(180deg, rgba(216, 145, 255, 1) 0%, rgba(223, 203, 235, 1) 55%, rgba(191, 196, 189, 1) 100%);
+  transform: rotate(-7deg);
+  text-align: center;
+}
+
+.violet:hover {
+  rotate: 7deg;
+  scale: 1.5;
+  transition: rotate 0.5s, scale 0.5s;
+  z-index: 1;
+}
+
+.blackboard p {
+  position: relative;
+  top: 30px;
+}
