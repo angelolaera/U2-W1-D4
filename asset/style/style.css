@@ -81,3 +81,41 @@ body {
   position: relative;
   top: 30px;
 }
+
+.textbox {
+  width: fit-content;
+  border: 2px solid lightgray;
+  margin-top: 50px;
+}
+
+.textbox span {
+  text-decoration: underline;
+  color: cadetblue;
+}
+
+.textbox span:hover {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    color: rgb(0, 0, 0);
+    transform: translateY(-300px);
+    opacity: 1;
+    animation: all 2s;
+  }
+
+  50% {
+    color: rgb(0, 0, 0);
+    transform: translateY(-300px);
+    opacity: 1;
+    animation: all 2s;
+  }
+
+  100% {
+    color: rgb(0, 0, 0);
+    transform: translateY(300px);
+    opacity: 1;
+    animation: all 2s;
+  }
+}
