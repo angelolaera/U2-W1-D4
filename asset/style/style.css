@@ -33,12 +33,13 @@ body {
   background: linear-gradient(0deg, rgba(191, 191, 191, 1) 0%, rgba(253, 254, 205, 1) 19%);
   transform: rotate(-5deg);
   text-align: center;
+  box-shadow: 10px 10px 10px;
 }
 
 .yellow:hover {
   rotate: 5deg;
   scale: 1.5;
-  transition: rotate 0.5s, scale 0.5s;
+  transition: rotate 0.7s, scale 0.7s;
   z-index: 1;
 }
 
@@ -49,12 +50,13 @@ body {
   background: linear-gradient(180deg, rgba(167, 255, 145, 1) 0%, rgba(215, 251, 201, 1) 55%, rgba(191, 196, 189, 1) 100%);
   transform: rotate(8deg);
   text-align: center;
+  box-shadow: 10px 10px 10px;
 }
 
 .green:hover {
   rotate: -8deg;
   scale: 1.5;
-  transition: rotate 0.5s, scale 0.5s;
+  transition: rotate 0.7s, scale 0.7s;
   z-index: 1;
 }
 
@@ -65,12 +67,13 @@ body {
   background: linear-gradient(180deg, rgba(216, 145, 255, 1) 0%, rgba(223, 203, 235, 1) 55%, rgba(191, 196, 189, 1) 100%);
   transform: rotate(-7deg);
   text-align: center;
+  box-shadow: 10px 10px 10px;
 }
 
 .violet:hover {
   rotate: 7deg;
   scale: 1.5;
-  transition: rotate 0.5s, scale 0.5s;
+  transition: rotate 0.7s, scale 0.7s;
   z-index: 1;
 }
 
